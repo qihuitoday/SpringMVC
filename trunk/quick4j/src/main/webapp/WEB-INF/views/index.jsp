@@ -112,6 +112,23 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
                                 <i class="fa fa-home"></i><span class="title"> 首页 </span><span
                                 class="selected"> </span>
                             </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="javascript:;">
+                                        Add TimeSheet
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        	角色管理
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        	权限管理
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
 
                         <li class="">
@@ -122,17 +139,17 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
                             <ul class="sub-menu">
                                 <li>
                                     <a href="javascript:;">
-                                        用户管理
+                                        	用户管理
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javascript:;">
-                                        角色管理
+                                        	角色管理
                                     </a>
                                 </li>
                                 <li>
                                     <a href="javascript:;">
-                                        权限管理
+                                        	权限管理
                                     </a>
                                 </li>
                             </ul>
